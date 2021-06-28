@@ -27,37 +27,37 @@ function consolecheck(){
 			
 			case ps4fwCompat[0]:
 			   
-				document.location.href="505/restore/index.html"
+				document.location.href="505/index.html"
 			    break;
 
 			case ps4fwCompat[1]:
 			   
-				document.location.href="505/restore/index.html"
+				document.location.href="505/index.html"
 			    break;
 				
 			case ps4fwCompat[2]:
-			   document.location.href="672/restore/index.html"
+			   document.location.href="672/index.html"
 				break;
 				
 			case ps4fwCompat[3]:
-			    document.location.href="702/restore/index.html"
+			    document.location.href="702/index.html"
 				break;
 
 			case ps4fwCompat[4]:
 			   
-				document.location.href="702/restore/index.html"
+				document.location.href="702/index.html"
 			    break;
 			
 			case ps4fwCompat[5]:
-			   document.location.href="755/restore/index.html"
+			   document.location.href="755/index.html"
 				break;
 				
 			case ps4fwCompat[6]:
-			    document.location.href="755/restore/index.html"
+			    document.location.href="755/index.html"
 				break;
 				
 			case ps4fwCompat[7]:
-			    document.location.href="755/restore/index.html"
+			    document.location.href="755/index.html"
 				break;
 				
 			default:
