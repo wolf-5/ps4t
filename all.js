@@ -26,22 +26,36 @@ function consolecheck(){
 		switch (fwVersionp34) {
 			
 			case ps4fwCompat[0]:
-			   
-				document.location.href="505/restore/index.html"
+     		   document.location.href="505/restore/index.html"
 			    break;
 				
 			case ps4fwCompat[1]:
-			   document.location.href="672/restore/index.html"
+			   document.location.href="505/restore/index.html"
 				break;
-				
+
 			case ps4fwCompat[2]:
-			    document.location.href="702.html"
-				break;
-			
+			   document.location.href="672/restore/index.html"
+				break;				
 			case ps4fwCompat[3]:
+			   document.location.href="702.html"
+				break;				
+
+			case ps4fwCompat[4]:
+			   document.location.href="702.html"
+				break;				
+
+			case ps4fwCompat[5]:
 			   document.location.href="755.html"
 				break;
-												
+				
+			case ps4fwCompat[6]:
+			    document.location.href="755.html"
+				break;
+			
+			case ps4fwCompat[7]:
+			   document.location.href="755.html"
+				break;
+															
 			default:
 				document.location.href=""
 				break;
