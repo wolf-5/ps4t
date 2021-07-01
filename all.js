@@ -37,23 +37,23 @@ function consolecheck(){
 			   document.location.href="672/restore/index.html"
 				break;				
 			case ps4fwCompat[3]:
-			   document.location.href="702.html"
+			   document.location.href="1702.html"
 				break;				
 
 			case ps4fwCompat[4]:
-			   document.location.href="702.html"
+			   document.location.href="1702.html"
 				break;				
 
 			case ps4fwCompat[5]:
-			   document.location.href="755.html"
+			   document.location.href="1755.html"
 				break;
 				
 			case ps4fwCompat[6]:
-			    document.location.href="755.html"
+			    document.location.href="1755.html"
 				break;
 			
 			case ps4fwCompat[7]:
-			   document.location.href="755.html"
+			   document.location.href="1755.html"
 				break;
 															
 			default:
