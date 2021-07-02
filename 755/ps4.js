@@ -129,6 +129,21 @@ function toggle_payload(pld){
 	if(pld == "exploit"){
 		document.getElementById("progress").innerHTML="Running Jailbreak.. Please wait!!";
 		preloadScripts(['jb.js']);
+	}else if(pld == "exploit_old"){
+		document.getElementById("progress").innerHTML="Running Jailbreak.. Please wait!!";
+		preloadScripts(['oldjb.js']);
+	}else if(pld == "exploit_old1"){
+		document.getElementById("progress").innerHTML="Running Old Jailbreak 1.. Please wait!!";
+		preloadScripts(['oldjb1.js']);
+	}else if(pld == "exploit_old2"){
+		document.getElementById("progress").innerHTML="Running Old Jailbreak 2.. Please wait!!";
+		preloadScripts(['oldjb2.js']);
+	}else if(pld == "exploit_old3"){
+		document.getElementById("progress").innerHTML="Running Old Jailbreak 3.. Please wait!!";
+		preloadScripts(['oldjb3.js']);
+	}else if(pld == "exploit_old4"){
+		document.getElementById("progress").innerHTML="Running Old Jailbreak .. Please wait!!";
+		preloadScripts(['oldjb4.js']);
 	}else if(pld == "hen213b"){
 		document.getElementById("progress").innerHTML="Loading Hen v2.1.3b ... Please wait..";
 		preloadScripts(['preloaderx.js', 'hen213b.js', 'loader.js']);
