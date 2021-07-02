@@ -1,12 +1,13 @@
 @echo off
 echo CACHE MANIFEST > test0.txt
+echo # v2.5.5 Self-Host >> test0.txt
 echo. >> test0.txt
+
 set LOC=%~dp0
 
 dir /B /S /A:-D >> test0.txt
 
-echo. >> test0.txt
-findstr /v "media .bat .exe .mp4 .git .py restore Cache.manifest test0.txt" test0.txt > test.txt
+findstr /v "media .bat .exe .mp4 .git .py restore New folder offlineCache672.manifest test0.txt" test0.txt > test.txt
 del test0.txt
 
 @echo off
@@ -26,9 +27,9 @@ set "firstLineReady="
 if defined firstLineReady (echo()
 set "firstLineReady=1"
 <nul set /p "=%%a")
-) > Cache.manifest
+) > offlineCache672.manifest
 del test.txt
 
-echo Cache.manifest created!!
+echo offlineCache672.manifest created!!
 
 sleep 2
