@@ -1,0 +1,3 @@
+CACHE MANIFEST 
+# v2.5.5 Self-Host 
+ 
