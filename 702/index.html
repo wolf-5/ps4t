@@ -87,12 +87,12 @@
 			window.applicationCache.onprogress=function(a){document.getElementById("myBar").style.width=(Math.round(100*(a.loaded/a.total)))+"%";document.getElementById("myBar").innerHTML=(Math.round(100*(a.loaded/a.total)))+"%";};
 			window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Page Cached Successfully!!";localStorage.is702Cached=true;setTimeout(function(){document.getElementById("progress").innerHTML="Turn Off the Internet & Reopen the Page to Run the Exploit!!"; }, 1500);};
 		</script>
-		<script src="./utils.js"></script>
-		<script src="./int64.js"></script>
-		<script src="./rop.js"></script>
-		<script src="./payloads.js"></script>
-		<script src="./userland.js"></script>
-		<script src="./ps4.js"></script>
+		<script src="utils.js"></script>
+		<script src="int64.js"></script>
+		<script src="rop.js"></script>
+		<script src="payloads.js"></script>
+		<script src="userland.js"></script>
+		<script src="ps4.js"></script>
 		<script>
 			var width = 0;
 			function frame1() {
