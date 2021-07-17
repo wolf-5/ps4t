@@ -96,7 +96,7 @@ function toggle_payload(pld){
 		preloadScripts(['jb.js', 'preloader.js', 'goldhen1.js', 'loader.js']);	
 	}else if(pld == "Toolbox"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'Orbis-Toolbox-702.js', 'loader.js']);
+		preloadScripts(['preloader.js', 'Toolbox.js', 'loader.js']);
 	}else if(pld == "webrte"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'webrte.js', 'loader.js']);
