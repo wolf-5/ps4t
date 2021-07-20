@@ -1,7 +1,7 @@
 @echo off
 
 echo CACHE MANIFEST > test0.txt
-echo # random: %880859e6cd66a81929415d6e4b15cc97% >> test0.txt
+echo # random: %880859e6cd66a81929415d6e4b15cc97%>> test0.txt
 echo. >> test0.txt
 echo CACHE: >> test0.txt
 
