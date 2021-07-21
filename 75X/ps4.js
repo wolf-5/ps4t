@@ -85,19 +85,22 @@ function setupRW() {
 		window.postExploit();
 }
 function toggle_payload(pld){
-	if(pld == "goldhen1"){
-		document.getElementById("progress").innerHTML="Loading GoldHenv1.0.. Please wait..";
+	if(pld == "exploit"){
+		document.getElementById("progress").innerHTML="Running Jailbreak.. Please wait!!";
+		preloadScripts(['jb.js']);
+	}else if(pld == "goldhen1"){
+		document.getElementById("progress").innerHTML="Loading GoldHenv1.1.. Please wait..";
 	if(fw=="755"){
-			preloadScripts(['jb.js', 'preloader.js', 'goldhen1v'+fw+'.js', 'loader.js']);
+			preloadScripts(['preloader.js', 'goldhen'+fw+'.js', 'loader.js']);
 	}else{
-			preloadScripts(['preloader'+fw+'.js', 'goldhen1v'+fw+'.js', 'loader.js']);	
+			preloadScripts(['preloader'+fw+'.js', 'goldhen'+fw+'.js', 'loader.js']);	
 		}
-	}else if(pld == "Toolbox"){
-		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'Toolbox.js', 'loader.js']);
 	}else if(pld == "webrte"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'webrte.js', 'loader.js']);
+	}else if(pld == "Toolbox"){
+		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		preloadScripts(['preloader.js', 'Toolbox.js', 'loader.js']);
 	}
 	if(window.postPayload)
 		window.postPayload();
