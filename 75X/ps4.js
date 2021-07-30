@@ -80,7 +80,7 @@ function setupRW() {
 	g_jsview_butterfly = new Int64(bf);
 	if(!read64(g_jsview_butterfly.sub(16)).equals(new Int64("0xffff000000001337")))
 		die("[!] Failed to setup addrof/fakeobj primitives");
-	debug_log("->Exploit Complete..Run Jailbreak !!");
+	debug_log("->Exploit Complete....!!");
 	if(window.postExploit)
 		window.postExploit();
 }
@@ -88,19 +88,29 @@ function toggle_payload(pld){
 	if(pld == "exploit"){
 		document.getElementById("progress").innerHTML="Running Jailbreak.. Please wait!!";
 		preloadScripts(['jb.js']);
-	}else if(pld == "goldhen1"){
+	}else if(pld == "goldhen"){
 		document.getElementById("progress").innerHTML="Loading GoldHenv1.1.. Please wait..";
 	if(fw=="755"){
 			preloadScripts(['preloader.js', 'goldhen'+fw+'.js', 'loader.js']);
 	}else{
 			preloadScripts(['preloader'+fw+'.js', 'goldhen'+fw+'.js', 'loader.js']);	
 		}
+	}else if(pld == "goldhenold"){
+		document.getElementById("progress").innerHTML="Loading GoldHenv1.0.. Please wait..";
+	if(fw=="755"){
+			preloadScripts(['preloader.js', 'goldhen'+fw+'.js', 'loader.js']);
+	}else{
+			preloadScripts(['preloader'+fw+'.js', 'goldhen'+fw+'.js', 'loader.js']);	
+		}
+	}else if(pld == "hen213b"){
+		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		preloadScripts(['preloader.js', 'hen213b.js', 'loader.js']);
 	}else if(pld == "webrte"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'webrte.js', 'loader.js']);
-	}else if(pld == "Toolbox"){
+	}else if(pld == "toolbox"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'Toolbox.js', 'loader.js']);
+		preloadScripts(['preloader.js', 'Toolbox755.js', 'loader.js']);
 	}
 	if(window.postPayload)
 		window.postPayload();

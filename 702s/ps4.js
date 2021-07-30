@@ -85,18 +85,18 @@ function setupRW() {
 		window.postExploit();
 }
 function toggle_payload(pld){
-	if(pld == "hen213b"){
-		document.getElementById("progress").innerHTML="Loading hen v213b.. Please wait..";
-		preloadScripts(['jb.js', 'preloader.js', 'hen213b.js', 'loader.js']);
-	}else if(pld == "goldhen"){
+	if(pld == "goldhen"){
 		document.getElementById("progress").innerHTML="Loading GoldHenv1.1.. Please wait..";
 		preloadScripts(['jb.js', 'preloader.js', 'goldhen.js', 'loader.js']);
-	}else if(pld == "goldhen1"){
+	}else if(pld == "goldhenold"){
 		document.getElementById("progress").innerHTML="Loading GoldHenv1.0.. Please wait..";
-		preloadScripts(['jb.js', 'preloader.js', 'goldhen1.js', 'loader.js']);	
-	}else if(pld == "Toolbox"){
+		preloadScripts(['jb.js', 'preloader.js', 'goldhen1.js', 'loader.js']);
+	}else if(pld == "hen213b"){
+		document.getElementById("progress").innerHTML="Loading hen v213b.. Please wait..";
+		preloadScripts(['jb.js', 'preloader.js', 'hen213b.js', 'loader.js']);		
+	}else if(pld == "toolbox"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
-		preloadScripts(['preloader.js', 'Toolbox.js', 'loader.js']);
+		preloadScripts(['preloader.js', 'Toolbox702.js', 'loader.js']);
 	}else if(pld == "webrte"){
 		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
 		preloadScripts(['preloader.js', 'webrte.js', 'loader.js']);
