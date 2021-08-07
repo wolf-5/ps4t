@@ -1,6 +1,7 @@
-<html manifest="Cache.manifest">
+<html manifest="Cache.manifest">           			
 	<style>
-		.button {  
+		.button {
+		  background-color: #;  
 		  border-radius: 5px;
 		  color: white;
 		  padding: .5em;
@@ -9,13 +10,13 @@
 		  display:inline-table;
 		  font-family: system-ui;
 		}
-
 		.button:focus,
 		.button:hover {
+		  background-color: #;
 		  color: White;
 		}
-
 		.titlehead {
+		  background-color: #;  
 		  border-radius: 5px;
 		  color: white;
 		  padding: .5em;
@@ -25,12 +26,11 @@
 		  margin-bottom: 0px;
 		  font-family: system-ui;
 		}
-
 		.titlehead:focus,
 		.titlehead:hover {
+		  background-color: #;
 		  color: White;
 		}
-
 		.bg {
 		  /* The image used */
 		  background-image: url("ps4.jpg");
@@ -40,7 +40,6 @@
 		  background-repeat: no-repeat;
 		  background-size: cover;
 		}
-
 		#myProgress {
 		  border: 5px solid #FFFFFF;
 		  border-radius: 5px;
@@ -48,12 +47,11 @@
 		  height: 45px;
 		  position: absolute;
 		  top:0;
-		  bottom: 70;
+		  bottom: 150;
 		  left: 150;
 		  right: 150;
 		  margin: auto;
 		}
-
 		#myBar {
 		  width: 0%;
 		  height: 40px;
@@ -65,20 +63,23 @@
 		  padding-top: 5px;
 		}
 
-.pointer 
-		 {cursor: pointer;}
-    	img:hover 
-		{transform: scale(1.2); 
-		/* (100% zoom - Note: if the zoom is too large,
-		it will go outside of the viewport) */}
-	
-.center{
-    	display:
-    	 block;margin-left:
-    	 auto;margin-right:
-    	 auto;}
+		.TextCaption{
+		display: block;
+		  font-size: 20px;
+		  color: #fff;
+		  text-decoration: none;
+		}
+		  a img {
+		  display: inline-block;  text-decoration: none;
+		}
+		  a {
+		  display: inline-block;  text-decoration: none;
+		}
 
-.	</style>
+		  a:hover img, a:hover .TextCaption{
+		  transform: scale(1.1)
+		}	
+</style>
 <head>
 <meta charset="utf-8">
 		<script>
