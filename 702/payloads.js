@@ -49,7 +49,7 @@ var Base64Binary = {
 }
 function write_payload(payload_writer, pld)
 {	
-if(pld == "goldhen"){
+    if(pld == "goldhen"){
 		b64s=goldhen;
 	}else if(pld == "goldhenold"){
 		b64s=goldhenold;

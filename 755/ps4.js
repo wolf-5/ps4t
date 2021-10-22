@@ -100,13 +100,13 @@ function toggle_payload(pld){
 			preloadScripts(['preloader'+fw+'.js', 'goldhen1v'+fw+'.js', 'loader.js']);	
 		}
 	}else if(pld == "hen213b"){
-		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		document.getElementById("progress").innerHTML="Loading Hen 2.1.3.b.. Please wait..";
 		preloadScripts(['preloader.js', 'hen213b.js', 'loader.js']);
 	}else if(pld == "Toolbox755"){
-		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		document.getElementById("progress").innerHTML="Loading Toolbox 755.. Please wait..";
 		preloadScripts(['preloader.js', 'Toolbox755.js', 'loader.js']);
 	}else if(pld == "webrte"){
-		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		document.getElementById("progress").innerHTML="Loading WebRte.. Please wait..";
 		preloadScripts(['preloader.js', 'webrte.js', 'loader.js']);
 	}
 	if(window.postPayload)

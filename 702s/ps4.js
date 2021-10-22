@@ -95,10 +95,10 @@ function toggle_payload(pld){
 		document.getElementById("progress").innerHTML="Loading hen v213b.. Please wait..";
 		preloadScripts(['jb.js', 'preloader.js', 'hen213b.js', 'loader.js']);		
 	}else if(pld == "toolbox"){
-		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		document.getElementById("progress").innerHTML="Loading Toolbox.. Please wait..";
 		preloadScripts(['preloader.js', 'Toolbox702.js', 'loader.js']);
 	}else if(pld == "webrte"){
-		document.getElementById("progress").innerHTML="Loading Payload.. Please wait..";
+		document.getElementById("progress").innerHTML="Loading WebRte.. Please wait..";
 		preloadScripts(['preloader.js', 'webrte.js', 'loader.js']);
 	}
 	if(window.postPayload)

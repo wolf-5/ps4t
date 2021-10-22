@@ -331,7 +331,7 @@ function sprayStringImpl(start, end) {
 	}
 }
 function go() {
-		if(localStorage.is755Cached){
+		if(localStorage.is75XCached){
 		sprayHTMLTextArea();
 		if(window.midExploit)
 			window.midExploit();
